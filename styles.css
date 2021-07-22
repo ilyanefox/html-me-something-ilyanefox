@@ -13,7 +13,7 @@ h1 {
 }
 h2 {
     text-align: center;
-    font: 30px "Segoe print";
+    font: 30px "Segoe script";
 
 }
 nav ul {
@@ -31,7 +31,7 @@ li {
 h3 {
     text-align: center;
     color: goldenrod;
-    font: 24px "segoe script";
+    font: 36px "segoe script";
     font-weight: bold;
 }
 p {
