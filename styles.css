@@ -20,8 +20,11 @@ h2 {
 }
 nav ul {
     text-align: center;
-    color: cadetblue;
     padding: 10px
+}
+
+a {
+    color: cadetblue;
 }
 ul {
     list-style-type: none;
