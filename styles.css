@@ -8,17 +8,19 @@ body {
 
 h1 {
     text-align: center;  
-    font: 48px "Segoe script";
+    font-family: 'Meow Script', cursive;
+font-size: 80px;
     color: goldenrod;
 }
 h2 {
     text-align: center;
-    font: 30px "Segoe script";
+    font: 48px "Meow Script", cursive;
+    font-weight: bold;
 
 }
 nav ul {
     text-align: center;
-    background-color: goldenrod;
+    color: cadetblue;
     padding: 10px
 }
 ul {
@@ -31,7 +33,7 @@ li {
 h3 {
     text-align: center;
     color: goldenrod;
-    font: 36px "segoe script";
+    font: 48px "Meow Script", cursive;
     font-weight: bold;
 }
 p {
@@ -58,10 +60,10 @@ footer {
     font-size: 75%
 }
 #mainHeading {
-    color: red;
+    color: goldenrod;
 }
 .funParagraph {
-    color: green;
+    color: cadetblue;
     font-size: 14px;
     margin-top: 50px;
     margin-bottom: 50px;
