@@ -5,12 +5,17 @@ body {
 
 }
 
-
 h1 {
+    display: flex;
     text-align: center;  
     font-family: 'Meow Script', cursive;
-font-size: 80px;
+    font-size: 80px;
     color: goldenrod;
+    width: 50%;
+    position: absolute;
+    flex-direction: row-reverse;
+    margin-left: 50px;
+   
 }
 h2 {
     text-align: center;
@@ -19,8 +24,12 @@ h2 {
 
 }
 nav ul {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
     text-align: center;
-    padding: 10px
+    padding: 20px;
+    margin-top: 50px;
+    clear: left;
 }
 
 a {
@@ -40,8 +49,9 @@ h3 {
     font-weight: bold;
 }
 p {
-    font-family:'Readex Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
+    font-size: 18px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -67,11 +77,14 @@ footer {
 }
 .funParagraph {
     color: cadetblue;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
-    text-align: justify;
 }
 
 .bottomImage {
-    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+
+    
 }
