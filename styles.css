@@ -2,20 +2,21 @@
 body {
     margin: 8px;
     display: block;
-
 }
-
-h1 {
+.heading{
     display: flex;
-    text-align: center;  
+    justify-content: center;
+}
+h1 {
     font-family: 'Meow Script', cursive;
-    font-size: 80px;
+    font-size: 5em;
     color: goldenrod;
-    width: 50%;
-    position: absolute;
-    flex-direction: row-reverse;
-    margin-left: 50px;
-   
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 76px;
+}
+.top-image {
+    margin-left: 8px;
 }
 h2 {
     text-align: center;
@@ -28,8 +29,8 @@ nav ul {
     font-size: 1.5em;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
-    clear: left;
+    margin-top: 40px;
+    clear: right;
 }
 
 a {
@@ -79,12 +80,4 @@ footer {
     color: cadetblue;
     margin-top: 25px;
     margin-bottom: 50px;
-}
-
-.bottomImage {
-    display: flex;
-    flex-direction: row;
-    margin-right: 200px;
-
-    
 }
